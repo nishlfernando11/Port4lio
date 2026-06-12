@@ -1,0 +1,29 @@
+/* Section Header Styles */
+.sectionHeader {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid rgba(96, 165, 250, 0.3);
+}
+
+.sectionHeader h2 {
+    color: #5daaf7;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.sectionHeader p {
+    color: #94a3b8;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+@media (min-width: 768px) {
+    .sectionHeader {
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .sectionHeader h2 {
+        font-size: 2.25rem;
+    }
+}

@@ -1,0 +1,52 @@
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, rgba(96, 165, 250, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.headline {
+    font-size: 2.5rem;
+    color: #286fb6;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.summary {
+    font-size: 1.1rem;
+    color: #26558f;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding: 4rem 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .headline {
+        font-size: 3rem;
+    }
+
+    .summary {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    .hero {
+        padding: 5rem 3rem;
+    }
+
+    .headline {
+        font-size: 3.5rem;
+    }
+
+    .summary {
+        font-size: 1.3rem;
+    }
+}

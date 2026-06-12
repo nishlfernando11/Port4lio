@@ -1,0 +1,47 @@
+/* Skills Section Styles */
+.skillsSection {
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.skillTag {
+    background-color: rgba(96, 165, 250, 0.2);
+    border: 1px solid rgba(96, 165, 250, 0.5);
+    color: #3b79c4;
+    padding: 0.75rem 1.25rem;
+    border-radius: 2rem;
+    text-align: center;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.skillTag:hover {
+    background-color: rgba(96, 165, 250, 0.3);
+    border-color: rgba(96, 165, 250, 0.8);
+    transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+    .skillsGrid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .skillTag {
+        padding: 1rem 1.5rem;
+        font-size: 1.05rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .skillsGrid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}

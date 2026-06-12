@@ -1,0 +1,91 @@
+/* Education Item Styles */
+.educationItem {
+    background-color: rgba(30, 41, 59, 0.8);
+    border-left: 4px solid #60a5fa;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
+}
+
+.educationItem:hover {
+    background-color: rgba(30, 41, 59, 1);
+    box-shadow: 0 10px 30px rgba(96, 165, 250, 0.15);
+    transform: translateX(4px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.titleSection h3 {
+    color: #60a5fa;
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+}
+
+.institution {
+    color: #93c5fd;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.dates {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    white-space: nowrap;
+}
+
+.location {
+    color: #cbd5e1;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.details li {
+    color: #cbd5e1;
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.details li:before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    color: #fbbf24;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .educationItem {
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .header {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .titleSection h3 {
+        font-size: 1.4rem;
+    }
+
+    .details li {
+        padding-left: 1.75rem;
+        margin-bottom: 0.75rem;
+    }
+}

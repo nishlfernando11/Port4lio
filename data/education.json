@@ -1,0 +1,41 @@
+{
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of California",
+      "dates": "2015 - 2019",
+      "location": "Berkeley, CA",
+      "details": [
+        "GPA: 3.8/4.0",
+        "Relevant Coursework: Data Structures, Algorithms, Web Development, Database Systems, Software Engineering",
+        "Dean's List: All semesters"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "credential": "AWS Certified Solutions Architect - Associate",
+      "issuer": "Amazon Web Services",
+      "dates": "2023 - 2025",
+      "details": ["Cloud architecture and AWS services expertise"]
+    },
+    {
+      "credential": "Google Cloud Professional Data Engineer",
+      "issuer": "Google Cloud",
+      "dates": "2023 - 2025",
+      "details": ["BigQuery, Dataflow, and Google Cloud Platform expertise"]
+    },
+    {
+      "credential": "Certified Full-Stack Developer",
+      "issuer": "Udacity",
+      "dates": "2022",
+      "details": ["Full-stack web development bootcamp completion"]
+    },
+    {
+      "credential": "Advanced React Specialization",
+      "issuer": "Coursera",
+      "dates": "2021",
+      "details": ["Advanced React patterns and performance optimization"]
+    }
+  ]
+}

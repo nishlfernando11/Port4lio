@@ -1,0 +1,56 @@
+{
+  "experiences": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "TechVision Inc.",
+      "location": "San Francisco, CA",
+      "dates": "2022 - Present",
+      "summary": "Leading development of next-generation web platform serving 500k+ users globally.",
+      "highlights": [
+        "Architected microservices infrastructure handling 1M+ daily requests",
+        "Reduced page load time by 60% through performance optimization",
+        "Led team of 5 engineers in agile environment",
+        "Implemented CI/CD pipeline reducing deployment time from 2 hours to 10 minutes"
+      ]
+    },
+    {
+      "title": "Full-Stack Developer",
+      "company": "Digital Innovations Ltd.",
+      "location": "New York, NY",
+      "dates": "2020 - 2022",
+      "summary": "Developed and maintained multiple client-facing applications using modern web stack.",
+      "highlights": [
+        "Built 15+ responsive web applications using React and Next.js",
+        "Implemented real-time features using WebSocket technology",
+        "Mentored 3 junior developers and established code review practices",
+        "Achieved 98% test coverage across critical modules"
+      ]
+    },
+    {
+      "title": "Junior Developer",
+      "company": "StartupXYZ",
+      "location": "Austin, TX",
+      "dates": "2019 - 2020",
+      "summary": "Contributed to early-stage startup's product development and growth.",
+      "highlights": [
+        "Developed frontend components using React and Redux",
+        "Implemented REST APIs with Node.js and Express",
+        "Collaborated with designers and product managers on user features",
+        "Participated in daily stand-ups and sprint planning sessions"
+      ]
+    },
+    {
+      "title": "Freelance Web Developer",
+      "company": "Self-Employed",
+      "location": "Remote",
+      "dates": "2018 - 2019",
+      "summary": "Designed and developed custom websites for small businesses and startups.",
+      "highlights": [
+        "Created 20+ custom websites using HTML, CSS, and JavaScript",
+        "Provided technical consulting and maintenance support",
+        "Achieved 100% client satisfaction rating",
+        "Managed end-to-end project lifecycle from requirements to deployment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+/* Education Page Styles */
+.educationPage {
+    min-height: 100vh;
+    background-color: #0f172a;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.section h2 {
+    color: #74b1ed;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    border-bottom: 2px solid rgba(96, 165, 250, 0.3);
+    padding-bottom: 1rem;
+}
+
+.itemsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 3rem 2rem;
+    }
+
+    .section h2 {
+        font-size: 2rem;
+    }
+}
