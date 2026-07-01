@@ -1,0 +1,41 @@
+{
+  "headline": "Creative Tech Professional & Problem Solver",
+  "summary": "Passionate full-stack developer with a knack for building elegant solutions to complex problems. Specialized in modern web technologies, with a strong foundation in design thinking and user-centric development. Always exploring the intersection of technology and innovation.",
+  "skills": [
+    "JavaScript/React",
+    "Next.js",
+    "Node.js",
+    "Web Design",
+    "UI/UX",
+    "CSS3 & Responsive Design",
+    "API Development",
+    "Project Leadership",
+    "Problem Solving",
+    "Technical Communication"
+  ],
+  "interests": [
+    "Building scalable web applications",
+    "Exploring emerging technologies",
+    "Mentoring junior developers",
+    "Open-source contributions",
+    "Product strategy and design"
+  ],
+  "achievements": [
+    {
+      "title": "Led Product Redesign Initiative",
+      "description": "Spearheaded complete UI/UX overhaul of flagship product, resulting in 40% improvement in user engagement and 25% reduction in support tickets."
+    },
+    {
+      "title": "Built High-Performance Web Platform",
+      "description": "Architected and deployed a scalable e-commerce platform handling 100k+ daily users with sub-second load times and 99.9% uptime."
+    },
+    {
+      "title": "Mentored Development Team",
+      "description": "Established and led a mentorship program for 8 junior developers, improving code quality metrics by 35% and accelerating their career growth."
+    },
+    {
+      "title": "Achieved Industry Recognition",
+      "description": "Featured speaker at 5+ technology conferences sharing insights on modern web development practices and leadership in tech teams."
+    }
+  ]
+}

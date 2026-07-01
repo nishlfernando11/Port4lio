@@ -1,0 +1,21 @@
+{
+  "profileUrl": "https://github.com/username",
+  "description": "Open-source enthusiast and active contributor. Maintaining several popular repositories with focus on web development and developer tools.",
+  "keyRepos": [
+    {
+      "name": "react-hooks-library",
+      "description": "Custom React hooks collection for common use cases. 2.5k stars, 150+ forks",
+      "url": "https://github.com/username/react-hooks-library"
+    },
+    {
+      "name": "nextjs-templates",
+      "description": "Production-ready Next.js starter templates. 3.2k stars, widely used by developers",
+      "url": "https://github.com/username/nextjs-templates"
+    },
+    {
+      "name": "web-performance-toolkit",
+      "description": "Tools and utilities for web performance optimization. 1.8k stars, active community",
+      "url": "https://github.com/username/web-performance-toolkit"
+    }
+  ]
+}
