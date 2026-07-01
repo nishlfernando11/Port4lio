@@ -11,9 +11,9 @@
 }
 
 .skillTag {
-    background-color: rgba(96, 165, 250, 0.2);
-    border: 1px solid rgba(96, 165, 250, 0.5);
-    color: #3b79c4;
+    background-color: var(--skill-bg);
+    border: 1px solid var(--skill-border);
+    color: var(--skill-text);
     padding: 0.75rem 1.25rem;
     border-radius: 2rem;
     text-align: center;
@@ -23,8 +23,8 @@
 }
 
 .skillTag:hover {
-    background-color: rgba(96, 165, 250, 0.3);
-    border-color: rgba(96, 165, 250, 0.8);
+    background-color: var(--skill-bg-hover);
+    border-color: var(--accent);
     transform: translateY(-2px);
 }
 

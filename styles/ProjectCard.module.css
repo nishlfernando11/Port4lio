@@ -1,7 +1,7 @@
 /* Project Card Styles */
 .projectCard {
-    background-color: rgba(30, 41, 59, 0.8);
-    border: 1px solid rgba(96, 165, 250, 0.3);
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-accent);
     padding: 1.5rem;
     border-radius: 0.5rem;
     transition: all 0.3s ease;
@@ -11,20 +11,20 @@
 }
 
 .projectCard:hover {
-    background-color: rgba(30, 41, 59, 1);
-    border-color: rgba(96, 165, 250, 0.6);
-    box-shadow: 0 15px 40px rgba(96, 165, 250, 0.2);
+    background-color: var(--bg-card-hover);
+    border-color: var(--accent);
+    box-shadow: 0 15px 40px var(--accent-glow);
     transform: translateY(-8px);
 }
 
 .projectCard h3 {
-    color: #60a5fa;
+    color: var(--accent);
     margin-bottom: 0.75rem;
     font-size: 1.25rem;
 }
 
 .description {
-    color: #cbd5e1;
+    color: var(--text-secondary);
     margin-bottom: 1.25rem;
     flex-grow: 1;
     line-height: 1.6;
@@ -38,9 +38,9 @@
 }
 
 .techTag {
-    background-color: rgba(59, 130, 246, 0.2);
-    border: 1px solid rgba(96, 165, 250, 0.4);
-    color: #93c5fd;
+    background-color: var(--skill-bg);
+    border: 1px solid var(--skill-border);
+    color: var(--accent-hover);
     padding: 0.35rem 0.75rem;
     border-radius: 1rem;
     font-size: 0.85rem;
@@ -55,10 +55,10 @@
 }
 
 .link {
-    color: #60a5fa;
+    color: var(--accent);
     font-weight: 500;
     padding: 0.5rem 1rem;
-    border: 1px solid rgba(96, 165, 250, 0.4);
+    border: 1px solid var(--border-accent);
     border-radius: 0.375rem;
     transition: all 0.3s ease;
     display: inline-block;
@@ -66,9 +66,9 @@
 }
 
 .link:hover {
-    background-color: rgba(96, 165, 250, 0.1);
-    border-color: rgba(96, 165, 250, 0.8);
-    color: #93c5fd;
+    background-color: var(--skill-bg);
+    border-color: var(--accent);
+    color: var(--accent-hover);
     text-decoration: none;
 }
 

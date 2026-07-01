@@ -1,7 +1,8 @@
 /* Home Page Styles */
 .home {
     min-height: 100vh;
-    background-color: #0f172a;
+    background-color: var(--bg-primary);
+    transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {

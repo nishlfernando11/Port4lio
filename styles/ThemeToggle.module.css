@@ -1,0 +1,74 @@
+.toggle {
+    position: relative;
+    width: 52px;
+    height: 28px;
+    padding: 0 !important;
+    background: none !important;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.toggle:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 999px;
+}
+
+.track {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 999px;
+    position: relative;
+    transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid var(--border-strong);
+}
+
+.trackDark {
+    background-color: rgba(30, 41, 59, 0.8);
+}
+
+.trackLight {
+    background-color: rgba(226, 232, 240, 0.9);
+}
+
+.thumb {
+    position: absolute;
+    top: 2px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.thumbDark {
+    transform: translateX(26px);
+    background-color: #334155;
+    color: #fbbf24;
+}
+
+.thumbLight {
+    transform: translateX(2px);
+    background-color: #ffffff;
+    color: #f59e0b;
+}
+
+.icon {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon svg {
+    width: 100%;
+    height: 100%;
+}

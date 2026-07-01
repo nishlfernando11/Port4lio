@@ -2,24 +2,27 @@
 .hero {
     text-align: center;
     padding: 2rem 1rem;
-    background: linear-gradient(135deg, rgba(96, 165, 250, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);
+    background: var(--hero-gradient);
     border-radius: 0.75rem;
     margin-bottom: 2rem;
+    transition: background 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .headline {
     font-size: 2.5rem;
-    color: #286fb6;
+    color: var(--hero-headline);
     margin-bottom: 1rem;
     line-height: 1.2;
+    transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .summary {
     font-size: 1.1rem;
-    color: #26558f;
+    color: var(--hero-summary);
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.8;
+    transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media (min-width: 768px) {

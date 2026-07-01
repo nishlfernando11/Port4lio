@@ -1,7 +1,8 @@
 /* Education Page Styles */
 .educationPage {
     min-height: 100vh;
-    background-color: #0f172a;
+    background-color: var(--bg-primary);
+    transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -15,11 +16,12 @@
 }
 
 .section h2 {
-    color: #74b1ed;
+    color: var(--heading-accent);
     margin-bottom: 1.5rem;
     font-size: 1.75rem;
-    border-bottom: 2px solid rgba(96, 165, 250, 0.3);
+    border-bottom: 2px solid var(--border-accent);
     padding-bottom: 1rem;
+    transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .itemsList {

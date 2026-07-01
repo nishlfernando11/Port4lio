@@ -2,19 +2,22 @@
 .sectionHeader {
     margin-bottom: 2rem;
     padding-bottom: 1.5rem;
-    border-bottom: 2px solid rgba(96, 165, 250, 0.3);
+    border-bottom: 2px solid var(--border-accent);
+    transition: border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sectionHeader h2 {
-    color: #5daaf7;
+    color: var(--heading-accent);
     font-size: 2rem;
     margin-bottom: 0.5rem;
+    transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sectionHeader p {
-    color: #94a3b8;
+    color: var(--text-muted);
     font-size: 1.1rem;
     font-style: italic;
+    transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media (min-width: 768px) {
